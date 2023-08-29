@@ -1,0 +1,65 @@
+/* Page */
+.content {
+  padding-bottom: 20%;
+}
+
+
+/* Header */
+.header {
+  padding: 0 0 5% 0;
+}
+
+h1 {
+  text-decoration: underline solid rgb(224, 26, 59) 10%;
+  text-underline-offset: 0.3em;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+
+
+/* Content */
+/* Icons */
+.container {
+  display: grid;
+  place-items: center;
+}
+
+table {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+td {
+  padding: 20px 100px 20px 100px;
+}
+
+fa-icon {
+  font-size: 50px;
+}
+
+fa-icon:hover {
+  color: rgb(224, 26, 59);
+  cursor: pointer;
+}
+
+
+
+/* Page Minimized */
+@media (max-width: 780px) {
+  .header {
+    padding: 0 0 10% 5%;
+  }
+  
+  h1 {
+    text-align: left;
+  }
+
+  .icons {
+    padding: 5% 5% 15% 5%;
+  }
+
+  td {
+    padding: 20px 40px 20px 40px;
+  } 
+}

@@ -1,0 +1,12 @@
+/* Content */  
+img {
+  width:100% ;
+  height: auto;
+}
+  
+.content {
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  padding: 20px;
+}
